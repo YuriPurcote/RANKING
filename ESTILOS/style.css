@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "principal";
+  src: url("../FONT/Comfortaa-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --tamanho: 5em;
+
+  --cor: #ffff;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+#headPage {
+  background-color: var(--cor);
+  font-family: "principal";
+}
+
+/* NOME */
+#LogoOnName {
+  max-width: var(--tamanho);
+  max-height: var(--tamanho);
+}
+#headPage > h1 {
+  display: flex;
+  font-weight: normal;
+  align-items: center;
+  justify-content: flex-end;
+}
